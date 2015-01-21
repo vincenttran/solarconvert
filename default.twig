@@ -1,0 +1,40 @@
+
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<div class="bk-pt-default">
+      <header class="bk-header">
+          <div class="header-container wrapper clearfix">
+            <div class="companyheader clearfix">
+                  <div class="header-left">
+                      {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
+                      {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+                  </div>
+                  <div class="header-right">
+                      {{widget('extendednavigation', 'navigationheader', {"align":"right"})|raw}}
+                      {{widget('ecombasket', 'ecombasket', {})|raw}}
+                  </div>
+            </div>
+          </div>
+      </header> 
+          <div class="canvas wrapper clearfix">
+                  {{zone('main')|raw}}
+          </div>
+              
+      <footer class="bk-footer">
+              <div class="footer-container wrapper clearfix">
+                  <div class="footer-left">
+                      {{widget('companyname', 'companynamefooter', {"business": "profile"})|raw}}
+                  </div>
+                  <div class="footer-center">
+                      {{widget('content', 'textbox2', {content: '<h4>Lorem Impsum</h4> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan.</p>', lines: 'all'})|raw}}
+                  </div>
+                  <div class="footer-right">
+                    {{widget('profile', 'footersocialicons', { 'profileType' : 'socialicons' })|raw}}
+                  </div>
+                </div>
+      </footer>
+</div>
+
+{% endblock %}

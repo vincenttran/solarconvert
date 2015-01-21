@@ -1,0 +1,151 @@
+{
+    "name":"Frames",
+    "thumbnail":"frames.png",
+    "screenshot":"frames.png",
+    "templateType":"ecommerce",
+    "pageTypes": ["home"],
+    "tags": {
+    "en": ["minimal", "clean", "ecommerce", "glasses", "modern", "sunglasses", "website", "full", "elegant", "professional", "unique", "media", "sans-serif"],
+    "es": ["minimalista", "limpio", "fotografico", "vintage", "moderno", "oscuro", "estudio", "website", "creativo", "elegante", "profesional", "unico", "comunicacion", "sans-serif", "ecommerce"],
+    "br": ["minimalista", "limpo", "fotografia", "vintage", "moderno", "escuro", "estúdio", "website", "criativo", "elegante", "profissional", "único", "mídia", "sans-serif", "ecommerce"]
+    },
+    "images":[
+        "images/feature-bg.jpg"
+    ],
+    "colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#ffffff",
+            "color2":"#000000",
+            "color3":"#302f43",
+            "color4":"#302f43",
+            "color5":"#757575",
+            "color6":"#db1515",
+            "color7":"#F0F8FF"
+        },
+        "Swatch 2": {
+            "color1":"#ffffff",
+            "color2":"#841c2f",
+            "color3":"#841c2f",
+            "color4":"#841c2f",
+            "color5":"#3c4a55",
+            "color6":"#841c2f",
+            "color7":"#ffffff"
+        },
+        "Swatch 3": {
+            "color1":"#ffffff",
+            "color2":"#4F7391",
+            "color3":"#4F7391",
+            "color4":"#4F7391",
+            "color5":"#3c4a55",
+            "color6":"#4F7391",
+            "color7":"#ffffff"
+        },
+        "Swatch 4": {
+            "color1":"#ffffff",
+            "color2":"#73AD5C",
+            "color3":"#73AD5C",
+            "color4":"#73AD5C",
+            "color5":"#757575",
+            "color6":"#73AD5C",
+            "color7":"#ffffff"
+        },
+        "Swatch 5": {
+            "color1":"#ffffff",
+            "color2":"#4BA5A1",
+            "color3":"#4BA5A1",
+            "color4":"#666088",
+            "color5":"#3c4a55",
+            "color6":"#4BA5A1",
+            "color7":"#ffffff"
+        }
+    },
+    "fontSwatch": {
+       "title": "Montserrat",
+        "font1": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "36px",
+            "font-weight": "700",
+            "line-height": "40px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "28px",
+            "font-weight": "700",
+            "line-height": "34px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "20px",
+            "font-weight": "700",
+            "line-height": "26px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "16px",
+            "font-weight": "700",
+            "line-height": "24px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "\"Myriad Pro\", Helvetica, sans-serif",
+            "font-size": "16px",
+            "font-weight": "300",
+            "line-height": "26px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "22px",
+            "color": "@color-swatch1",
+            "color-hover": "@color-swatch4",
+            "letter-spacing": "inherit",
+            "background-color": "transparent",
+            "background-color-hover": "transparent"
+        },
+        "font7": {
+            "font-family": "\"Myriad Pro\", Helvetica, sans-serif",
+            "font-size": "16px",
+            "font-weight": "300",
+            "line-height": "20px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "darken(@color-swatch1,5%)"
+        },
+        "font8": {
+            "font-family": "\"Myriad Pro\", Helvetica, sans-serif",
+            "font-size": "58px",
+            "font-weight": "700",
+            "line-height": "64px",
+            "color": "@color-swatch1",
+            "letter-spacing": "2px"
+        },
+        "font9": {
+            "font-family": "\"Myriad Pro\", Helvetica, sans-serif",
+            "font-size": "16px",
+            "font-weight": "300",
+            "line-height": "22px",
+            "color": "@color-swatch1",
+            "letter-spacing": "2px"
+        },
+        "font10": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "24px",
+            "font-weight": "700",
+            "line-height": "28px",
+            "color": "@color-swatch1",
+            "letter-spacing": "2px"
+        }
+    }
+}

@@ -1,0 +1,244 @@
+// =============================================================================================
+// FORMS
+
+// Buttons
+.widget.feature .feature-bgimg .content button,
+.contactform button.btn,
+.widget.button button,
+.widget .btn,
+.widget.profile form button,
+.widget.paypalbuynow .widget.button.paypal,
+.widget.tweet a,
+.widget.dropbox button,
+.signupform fieldset button,
+.blog-search-submit-button,
+.widget.ecomproduct .ecom-product .btn,
+.widget.ecomcheckout .checkout-order-button,
+.widget.ecombasket .ecombasket-list-container .ecombasket-checkout-wrap .ecombasket-checkout-link,
+.blog-post-more-link a,
+.blog-list-footer .paginate-older,
+.widget.clicktocall a
+ {
+	padding: 0 15px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	line-height: (@font-swatch7-font-size * 2.5 );
+	border-radius: 0;
+	font-family: @font-swatch7-font-family;
+	font-size: @font-swatch7-font-size;
+	font-weight:@font-swatch7-font-weight;
+	background-color: @font-swatch7-background-color;
+	color: @font-swatch7-color;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-shadow: none;
+	border: none;
+	-webkit-font-smoothing: subpixel-antialiased !important;
+	margin: 0;
+
+	-webkit-transition: background-color 0.15s ease-in-out;
+	-moz-transition: background-color 0.15s ease-in-out;
+	-o-transition: background-color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out;
+
+	@media only screen and (max-width : 460px) {
+		padding: 0 1.2em;
+		font-size: bkscale(@font-swatch7-font-size, 0.75);
+		line-height: (@font-swatch7-font-size * 2);
+	} 
+
+	&:hover {
+		background-color: lighten(@color-swatch3,10%);
+	  	cursor: pointer;
+	}
+}
+
+.widget.ecomcheckout .checkout-order-button:disabled {
+	background-color: @color-swatch7;
+	opacity: 0.5;
+}
+
+
+// Image buttons
+.widget.paypalbuynow .widget.button.paypal,
+.widget.tweet a,
+.widget.dropbox button,
+.widget.clicktocall a {
+	padding-left: 45px;
+	background-position: 15px center;
+	&:hover {
+		padding-left: 45px;
+		background-position: 15px center;
+	}
+}
+
+// Click to Call widget
+
+.widget.clicktocall {
+  a, a:hover {
+    padding: 0 10px;
+    padding-left: 40px;
+    
+    @media @mobile-up {
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+      color: @font-swatch5-color;
+      background: transparent;
+      text-shadow: none;
+      letter-spacing: 0;
+      font-size: @font-swatch5-font-size;
+      height: auto;
+      line-height: @font-swatch5-line-height;
+      cursor: default;
+
+    }
+  }
+
+}
+
+
+// Text Inputs
+.contactform input, .contactform textarea,
+.widget.profile form fieldset input.email,
+.signupform fieldset input.email,
+.blogsearch input.blog-search-input,
+.widget input[type="text"],
+.widget input[type="email"],
+.productlist-filter .productlist-search input,
+.signupform fieldset input {
+	background-color: lighten(@color-swatch1,5%);
+	border-radius: 0;
+	padding: 0 1em;
+	text-indent: 0;
+	height: (@font-swatch7-font-size * 2.5 );
+    font-family: @font-swatch5-font-family;
+    font-size: @font-swatch5-font-size;
+    line-height:26px;
+    color: @font-swatch5-color;
+    border: 1px solid @color-swatch3;
+    margin: 0;
+
+
+	@media only screen and (max-width : 460px) {
+		font-size: bkscale(@font-swatch7-font-size, 0.75);
+		height: (@font-swatch7-font-size * 2);
+		line-height: (@font-swatch7-font-size * 2);
+	} 
+
+
+	&:hover {
+		
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
+.contactform textarea {
+	line-height: bkscale(@font-swatch7-line-height, 0.7);
+	min-height: 10em;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	@media only screen and (max-width : 460px) {
+		line-height: bkscale(@font-swatch7-line-height, 0.5);
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	} 
+}
+
+// Labels
+.contactform label,
+.signupform fieldset label,
+.blog-search-form label,
+.widget.ecomcheckout .delivery label,
+.ecom-product-vartitle {
+    font-family:@font-swatch1-font-family;
+    font-size:@font-swatch4-font-size;
+    font-weight:@font-swatch4-font-weight;
+    line-height:@font-swatch4-line-height;
+    color: @color-swatch4;
+    letter-spacing: @font-swatch4-letter-spacing;
+    margin-bottom: 0.5em;
+   
+
+    @media only screen and (max-width : 460px) {
+		line-height: bkscale(@font-swatch4-line-height, 0.8);
+		font-size:bkscale(@font-swatch4-font-size, 0.8);
+	} 
+}
+
+
+// Selects
+.widget.ecomproductslist .productlist-filter,
+.widget.ecomcheckout .delivery,
+.widget.ecomproduct .ecom-product .ecom-product-info .ecom-product-variation
+{
+	& select {
+		text-indent: 0.01px;
+		text-overflow: '';
+		cursor: pointer;
+		position: relative;
+		background-repeat: no-repeat;
+		background-position: right center;
+		margin: 0;
+		border: 1px solid @color-swatch3;
+		background-color: @color-swatch1;
+		color: @color-swatch5;
+		border-radius: 0;
+		position: relative;
+		display: inline-block;
+		font-family: @font-swatch7-font-family;
+		font-size: @font-swatch7-font-size;
+		font-weight: @font-swatch7-font-weight;
+		height: (@font-swatch7-font-size * 2.5 );
+		line-height: 1;
+		webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+		@media only screen and (max-width : 460px) {
+			font-size: bkscale(@font-swatch7-font-size, 0.75);
+			height: (@font-swatch7-font-size * 2);
+		} 
+
+		&:focus {
+			border-color: @color-swatch2;
+		}
+	}
+}
+
+// Hides *custom* dropdown arrow in Firefox 30 and above
+@supports (-moz-appearance:meterbar) and (background-blend-mode:difference,normal) {
+	.widget.ecomproductslist .productlist-filter,
+	.widget.ecomcheckout .delivery,
+	.widget.ecomproduct .ecom-product .ecom-product-info .ecom-product-variation {
+		& select {
+			background-image: none;
+		}
+	}
+}
+
+
+// Placeholders
+input::-webkit-input-placeholder {
+  color:    lighten(@color-swatch5,15%);
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+  color:    lighten(@color-swatch5,15%);
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+  color:    lighten(@color-swatch5,15%);
+}
+
+input:-ms-input-placeholder {  
+   color:    lighten(@color-swatch5,15%);
+}
+
